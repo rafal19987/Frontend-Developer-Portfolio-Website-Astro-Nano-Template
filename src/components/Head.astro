@@ -70,6 +70,16 @@ const { title, description, image = "/nano.png" } = Astro.props;
   );
 </script>
 
+<script async id='cookieyes' src='https://cdn-cookieyes.com/client_data/dc91a63512eab29c6541c0aa/script.js'></script>
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', process.env.GOOGLE_ANALYTICS_ID);
+</script>
+
 <script is:inline>
   function init() {
     preloadTheme();
