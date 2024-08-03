@@ -18,6 +18,8 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
+const googleTag = import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID
+
 const { title, description, image = "/nano.png" } = Astro.props;
 ---
 
@@ -71,13 +73,13 @@ const { title, description, image = "/nano.png" } = Astro.props;
 </script>
 
 <script async id='cookieyes' src='https://cdn-cookieyes.com/client_data/dc91a63512eab29c6541c0aa/script.js'></script>
-<script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.PUBLIC_GOOGLE_ANALYTICS_ID}`}></script>
+<script async src={`https://www.googletagmanager.com/gtag/js?id=G-SE2G05XHVW`}></script>
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', process.env.PUBLIC_GOOGLE_ANALYTICS_ID);
+  gtag('config', 'G-SE2G05XHVW');
 </script>
 
 <script is:inline>
