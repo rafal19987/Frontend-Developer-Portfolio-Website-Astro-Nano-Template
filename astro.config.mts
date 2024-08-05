@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  site: import.meta.env.PUBLIC_HOST_NAME as string,
+  site: 'https://rafalizdebski.pl/',
   integrations: [mdx(), sitemap(), tailwind()],
 });
