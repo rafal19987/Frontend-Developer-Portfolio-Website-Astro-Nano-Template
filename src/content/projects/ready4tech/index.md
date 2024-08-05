@@ -1,16 +1,18 @@
 ---
-title: 'Ready4Tech | Web application'
-description: 'Fullstack web application'
+title: 'Ready4Tech | Next.js | Nest.js | Web application'
+description: 'My latest fullstack web application project'
 date: 'Jul 01 2024'
-demoURL: 'https://learn-g1sl0mb9o-rafal19987s-projects.vercel.app/'
-repoURL: 'https://github.com/rafal19987/learn-app'
+repoURL: 'https://github.com/rafal19987/Ready4Tech-Flashcards-Learning-App-Nextjs-TypeScript-Tailwind-Shadcn-Nextauth-Nestjs-MySql-TypeORM'
+thumbnail: '/screenshots/ready-4-tech.avif'
 ---
 
-![Ready4Tech application screenshot](/screenshots/ready-4-tech.png)
+![Ready4Tech application screenshot](/screenshots/ready-4-tech.avif)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+Project prepared as part of learning backend technologies. I designed the visual page in Figma with the support of the Shadcn-ui component library.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+Ready4Tech focuses on learning through repetition using flashcards with questions and answers. Users can choose from various question categories. Initially, only the question is displayed, prompting users to recall the answer from memory. After clicking a button, the answer is revealed, and users can decide whether to move on to the next question or keep it for further review. Each learning session is saved, allowing users to continue from where they left off.
+
+![Ready4Tech application screenshot](/screenshots/r4t3.avif)
 
 ## 📋 Features
 
@@ -27,7 +29,7 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 
 ## 📋 Techstack
 
-- ✅ [Next.js 14](https://nextjs.org/)
+- ✅ [Next.js](https://nextjs.org/)
 - ✅ [Nest.js](https://nestjs.com/)
 - ✅ [TypeScript](https://www.typescriptlang.org/)
 - ✅ [TailwindCSS](https://tailwindcss.com/)
@@ -41,6 +43,4 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ [Aiven](https://aiven.io/)
 - ✅ [Vercel](https://vercel.com/rafal19987s-projects)
 
-## 🏛️ License
-
-MIT
+![Ready4Tech application screenshot](/screenshots/r4t2.avif)

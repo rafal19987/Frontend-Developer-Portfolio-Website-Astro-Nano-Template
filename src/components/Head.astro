@@ -18,9 +18,7 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const googleTag = import.meta.env.PUBLIC_GOOGLE_ANALYTICS_ID
-
-const { title, description, image = "/nano.png" } = Astro.props;
+const { title, description, image = "/opengraph.avif" } = Astro.props;
 ---
 
 <!-- Global Metadata -->
