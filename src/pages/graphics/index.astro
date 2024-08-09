@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { GRAPHICS } from "@consts";
+
+const graphics = await getCollection("graphics")
+---
+
+<PageLayout title={GRAPHICS.TITLE} description={GRAPHICS.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        Graphics
+      </div>
+      <p class="animate">Sometimes I`m also creating small grapihcs projects for clients. Check them out.</p>
+      <ul class="animate flex flex-col gap-16">
+        {graphics.map((graphic) => 
+        <li class="grid place-items-center gap-4">
+          <img src={graphic.data.thumbnail}/>
+          <p class="font-light">{graphic.data.title}</p>
+        </li>)}
+      </ul>
+    </div>
+  </Container>
+</PageLayout>
