@@ -2,7 +2,7 @@
 title: 'Osiakowka | Astro.js | Landing Page'
 description: 'Landing Page of the guesthouse in Szklarska Poręba'
 date: 'April 01 2024'
-demoURL: 'https://osiakowka.pl/'
+demoURL: 'https://hotel-szklarska.netlify.app/'
 thumbnail: '/screenshots/osiak.avif'
 ---
 

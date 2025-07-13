@@ -2,7 +2,7 @@
 title: 'Zalewski-transport.pl | Next.js | Landing Page'
 description: 'Landing Page for the transportation industry.'
 date: 'Feb 01 2024'
-demoURL: 'https://zalewski-transport.pl/'
+demoURL: 'https://transport-za-granice.netlify.app/'
 thumbnail: '/screenshots/zalewski-transport.avif'
 ---
 
